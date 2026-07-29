@@ -42,7 +42,7 @@
   },
   "[sql]": {
     "editor.defaultFormatter": "adpyke.vscode-sql-formatter",
-    "editor.tabSize": 2
+    "editor.tabSize": 4
   },
   "eslint.workingDirectories": [{ "mode": "auto" }]
 }
