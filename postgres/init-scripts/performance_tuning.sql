@@ -3,3 +3,4 @@ CREATE DATABASE performance_tuning;
 
 \c performance_tuning
 
+CREATE TABLE users (
