@@ -8,3 +8,5 @@ CREATE TABLE users (
   username VARCHAR(50) NOT NULL
 );
 
+CREATE TABLE tweets (
+  id SERIAL PRIMARY KEY,
