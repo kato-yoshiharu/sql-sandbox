@@ -15,4 +15,5 @@ SELECTが遅い場合とINSERTが遅い場合に分ける。
 SELECTが遅いケースを見る。
 N+1問題が主な原因なので、まず見ていく。
 JOINとEager Loadingで発行クエリ数を減らす。
+Eager Loadingは初めて聞いた。
 
