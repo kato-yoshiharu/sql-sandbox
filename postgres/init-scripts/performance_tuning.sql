@@ -19,3 +19,6 @@ INSERT INTO users (username)
 SELECT 'user_' || i
 FROM generate_series(1, 1000) AS i;
 
+INSERT INTO tweets (user_id, text)
+FROM generate_series(1, 10000) AS i;
+
