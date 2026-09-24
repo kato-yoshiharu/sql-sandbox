@@ -17,3 +17,5 @@ CREATE TABLE tweets (
 
 INSERT INTO users (username)
 SELECT 'user_' || i
+FROM generate_series(1, 1000) AS i;
+
