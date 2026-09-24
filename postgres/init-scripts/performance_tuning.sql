@@ -20,5 +20,6 @@ SELECT 'user_' || i
 FROM generate_series(1, 1000) AS i;
 
 INSERT INTO tweets (user_id, text)
+SELECT (i % 1000) + 1, 'tweet_' || i
 FROM generate_series(1, 10000) AS i;
 
