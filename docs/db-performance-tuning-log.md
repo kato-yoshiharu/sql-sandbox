@@ -12,3 +12,4 @@ lazysql "postgres://postgres:password@localhost:5555/performance_tuning?sslmode=
 まずは、クエリの本数が多い場合。
 
 SELECTが遅いケースを見る。
+N+1問題が主な原因。JOINやEager Loadingで発行クエリ数を減らす。
