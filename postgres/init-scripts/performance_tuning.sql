@@ -15,3 +15,5 @@ CREATE TABLE tweets (
   created_at TIMESTAMPTZ NOT NULL DEFAULT CURRENT_TIMESTAMP
 );
 
+INSERT INTO users (username)
+SELECT 'user_' || i
