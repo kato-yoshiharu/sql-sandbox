@@ -61,3 +61,6 @@ Eager Loadingは、関連データをJOINや一括クエリで取得しておく
 ```sql
 -- 遅い例: 1件ずつINSERT（10,000本）
 INSERT INTO tweets (user_id, text) VALUES (1, 'tweet_1');
+INSERT INTO tweets (user_id, text) VALUES (2, 'tweet_2');
+-- ...
+
