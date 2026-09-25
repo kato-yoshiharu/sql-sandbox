@@ -58,3 +58,6 @@ Eager Loadingは、関連データをJOINや一括クエリで取得しておく
 
 大量の書き込みには、複数レコードを1本のSQLにまとめるバルク処理が有効。
 
+```sql
+-- 遅い例: 1件ずつINSERT（10,000本）
+INSERT INTO tweets (user_id, text) VALUES (1, 'tweet_1');
