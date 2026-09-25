@@ -65,3 +65,8 @@ INSERT INTO tweets (user_id, text) VALUES (1, 'tweet_1');
 INSERT INTO tweets (user_id, text) VALUES (2, 'tweet_2');
 -- ...
 
+-- 改善例: バルクインサート（1本）
+INSERT INTO tweets (user_id, text)
+SELECT (i % 1000) + 1, 'tweet_' || i
+FROM generate_series(1, 10000) AS i;
+```
