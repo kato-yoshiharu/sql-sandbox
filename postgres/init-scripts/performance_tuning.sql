@@ -33,3 +33,5 @@ CREATE TABLE access_logs (
   created_at TIMESTAMPTZ NOT NULL
 );
 
+INSERT INTO access_logs (user_id, path, status_code, created_at)
+SELECT
