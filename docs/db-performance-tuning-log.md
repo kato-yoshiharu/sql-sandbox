@@ -20,3 +20,4 @@ Eager Loadingは初めて聞いた。
 まずはJOIN。
 
 ```sql
+SELECT id, user_id, text FROM tweets;
