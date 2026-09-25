@@ -20,4 +20,5 @@ Eager Loadingは初めて聞いた。
 まずはJOIN。
 
 ```sql
+-- N+1になる例: ツイートを取得してから1件ごとにユーザーを取得（10,000 + 1本）
 SELECT id, user_id, text FROM tweets;
