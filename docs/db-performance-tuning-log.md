@@ -40,3 +40,5 @@ JOINの注意
 
 EXPLAIN ANALYZEで行数と実行時間を確認できる。
 
+Eager Loadingとは
+
