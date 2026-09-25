@@ -26,3 +26,4 @@ SELECT id, user_id, text FROM tweets;
 SELECT id, username FROM users WHERE id = :user_id;
 
 -- 改善例: JOINでまとめて取得（1本）
+SELECT t.id, t.text, u.username
