@@ -22,3 +22,4 @@ Eager Loadingは初めて聞いた。
 ```sql
 -- N+1になる例: ツイートを取得してから1件ごとにユーザーを取得（10,000 + 1本）
 SELECT id, user_id, text FROM tweets;
+-- ↑の結果1件ずつに対して以下を発行してしまう
