@@ -25,3 +25,4 @@ SELECT id, user_id, text FROM tweets;
 -- ↑の結果1件ずつに対して以下を発行してしまう
 SELECT id, username FROM users WHERE id = :user_id;
 
+-- 改善例: JOINでまとめて取得（1本）
