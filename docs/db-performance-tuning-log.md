@@ -6,7 +6,7 @@ DBが遅い原因は、「クエリの本数が多いか、クエリ自体が遅
 # 起動
 cd postgres && cargo make serve
 # 接続
-lazysql "postgres://postgres:password@localhost:5555/performance_tuning?sslmode=disable"
+sqlit "postgres://postgres:password@localhost:5555/performance_tuning?sslmode=disable"
 ```
 
 ## クエリの本数が多い場合
