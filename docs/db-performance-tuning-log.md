@@ -70,3 +70,6 @@ INSERT INTO tweets (user_id, text)
 SELECT (i % 1000) + 1, 'tweet_' || i
 FROM generate_series(1, 10000) AS i;
 ```
+
+1トランザクションに詰め込みすぎるとロック時間・メモリ消費が増えるため、チャンクサイズを区切るのが実務上のベストプラクティス（例: 1000件単位）
+
