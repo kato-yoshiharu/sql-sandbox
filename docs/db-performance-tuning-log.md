@@ -9,6 +9,8 @@ cd postgres && cargo make serve
 lazysql "postgres://postgres:password@localhost:5555/performance_tuning?sslmode=disable"
 ```
 
+## クエリの本数が多い場合
+
 まずは、クエリの本数が多い場合。
 SELECTが遅い場合とINSERTが遅い場合に分かれる。
 
