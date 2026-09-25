@@ -50,3 +50,4 @@ LazyLoadingはデフォルトの挙動。
 ループの度にクエリを発行する。
 Eager Loadingは、関連データをJOINや一括クエリで取得しておくアプローチ。
 
+### INSERTが遅い場合
