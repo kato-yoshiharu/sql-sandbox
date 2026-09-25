@@ -35,3 +35,4 @@ CREATE TABLE access_logs (
 
 INSERT INTO access_logs (user_id, path, status_code, created_at)
 SELECT
+FROM generate_series(1, 300000) AS i;
