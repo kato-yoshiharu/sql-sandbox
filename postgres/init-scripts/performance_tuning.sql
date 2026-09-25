@@ -27,3 +27,9 @@ FROM generate_series(1, 10000) AS i;
 -- created_atには意図的にインデックスを張っていない
 CREATE TABLE access_logs (
   id SERIAL PRIMARY KEY,
+  user_id INTEGER NOT NULL,
+  path VARCHAR(255) NOT NULL,
+  status_code INTEGER NOT NULL,
+  created_at TIMESTAMPTZ NOT NULL
+);
+
