@@ -23,3 +23,7 @@ INSERT INTO tweets (user_id, text)
 SELECT (i % 1000) + 1, 'tweet_' || i
 FROM generate_series(1, 10000) AS i;
 
+-- インデックス / EXPLAIN / パーティション練習用
+-- created_atには意図的にインデックスを張っていない
+CREATE TABLE access_logs (
+  id SERIAL PRIMARY KEY,
