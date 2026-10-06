@@ -19,4 +19,5 @@ RUN apt-get update && apt-get install -y \
   && apt-get autoremove -y \
   && apt-get clean
 
-COPY ./init-scripts/ /docker-entrypoint-initdb.d/
+COPY ./databases/ /databases/
+COPY ./init-databases.sh /docker-entrypoint-initdb.d/init-databases.sh

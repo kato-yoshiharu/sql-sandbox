@@ -1,23 +1,5 @@
 # Pagination, Paging
 
-- [Pagination, Paging](#pagination-paging)
-  - [Offset-Based](#offset-based)
-    - [input](#input)
-    - [Pros](#pros)
-    - [Cons](#cons)
-    - [LIMIT-OFFSET](#limit-offset)
-    - [OFFSET-FETCH](#offset-fetch)
-  - [Cursor-Based](#cursor-based)
-    - [input](#input-1)
-    - [Pros](#pros-1)
-    - [Cons](#cons-1)
-  - [Offset vs Cursor-Based Pagination](#offset-vs-cursor-based-pagination)
-  - [Seek Method](#seek-method)
-    - [参考](#参考)
-  - [With Window-Functions](#with-window-functions)
-    - [例](#例)
-  - [参考](#参考-1)
-
 ## Offset-Based
 
 `LIMIT-OFFSET`と`OFFSET-FETCH`の書き方があるが、目的は同じ。

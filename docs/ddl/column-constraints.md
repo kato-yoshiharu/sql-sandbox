@@ -1,17 +1,5 @@
 # Column Constraints 列制約
 
-- [Column Constraints 列制約](#column-constraints-列制約)
-  - [DEFAULT句](#default句)
-  - [NOT NULL](#not-null)
-  - [UNIQUE](#unique)
-  - [CHECK](#check)
-  - [PRIMARY KEY](#primary-key)
-    - [Simple Primary Key](#simple-primary-key)
-    - [Composite Primary Key](#composite-primary-key)
-  - [FOREIGN KEY](#foreign-key)
-  - [CONSTRAINT](#constraint)
-  - [Constraint Attributes](#constraint-attributes)
-
 すべての列がデータ型を持たなければならない。
 ALTER文でテーブル定義を変更しない限りデータ型は不変である。
 

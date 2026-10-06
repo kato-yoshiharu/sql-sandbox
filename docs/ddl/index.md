@@ -1,17 +1,5 @@
 # DDL
 
-- [DDL](#ddl)
-  - [CREATE TABLE](#create-table)
-  - [DROP TABLE](#drop-table)
-    - [drop behavior](#drop-behavior)
-  - [ALTER TABLE](#alter-table)
-    - [ADD COLUMN](#add-column)
-    - [ALTER COLUMN](#alter-column)
-    - [ADD](#add-)
-  - [TRUNCATE TABLE](#truncate-table)
-  - [IF EXISTS, IF NOT EXISTS](#if-exists-if-not-exists)
-  - [COMMENT](#comment)
-
 ## CREATE TABLE
 
 テーブル名はスキーマ内で一意でなければならない。

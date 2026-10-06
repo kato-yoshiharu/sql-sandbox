@@ -1,12 +1,5 @@
 # SELECT
 
-- [SELECT](#select)
-  - [DISTINCT](#distinct)
-    - [Use case](#use-case)
-  - [ORDER BY](#order-by)
-    - [列番号を指定した並べ替え](#列番号を指定した並べ替え)
-    - [Use case](#use-case-1)
-
 ## DISTINCT
 
 重複行を除外する。
