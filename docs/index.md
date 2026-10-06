@@ -1,12 +1,5 @@
 # SQL
 
-- [SQL](#sql)
-  - [SQL命令の種類](#sql命令の種類)
-    - [DDL](#ddl)
-    - [DCL](#dcl)
-    - [DML](#dml)
-    - [TCL](#tcl)
-
 ## SQL命令の種類
 
 ### DDL
