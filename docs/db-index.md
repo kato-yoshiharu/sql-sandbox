@@ -86,3 +86,7 @@ TODO
 ## ANALYZEで計測
 
 統計情報が古いとインデックスがあっても使われないことがあるため、`ANALYZE`で統計を更新しておく
+
+## TODO
+
+- <https://zenn.dev/farstep/books/learn-database-index-basics>
